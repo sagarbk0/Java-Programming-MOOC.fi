@@ -1,0 +1,8 @@
+[LearningInstitution]->*[Teacher]
+[Class]->[Teacher]
+
+[Class|-teacher: Teacher;-course: String|+Class(teacher, course);printInformation: void]
+
+[Teacher|-name: String|+Teacher(name); +toString: String]
+
+[LearningInstitution|-teachers: ArrayList<Teacher>|+LearningInstitution;addTeacher(teacher): void;+toString: String]
