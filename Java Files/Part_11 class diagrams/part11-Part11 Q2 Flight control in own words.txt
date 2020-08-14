@@ -1,0 +1,13 @@
+Above is described class FlightControl. Explain in your own words how the class roughly works. In addition to the rough description please also explain:
+
+1. Why planes, flights and places are saved in a hash map
+1. How the method addAirplane works
+1. How the method addFlight works
+Your answer should be at least 75 words long
+
+Your answer
+1. Planes, flights and places are saved in a HashMap because it is a dynamic storage system, allowing users to add as many of each as they want, not allowing multiple instances of the same plane/flight/place, and allowing easy retrieval based on the object's properties.
+2. A new airplane is created and added to the corresponding HashMap.
+3. Departure and destination IDs are added to the places HashMap if not already present, a flight is created with the departure and destination and added to the corresponding HashMap.
+​
+Words: 87
