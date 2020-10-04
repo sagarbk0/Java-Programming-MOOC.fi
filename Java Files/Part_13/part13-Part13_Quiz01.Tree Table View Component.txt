@@ -1,0 +1,1 @@
+The tree table view component provides the features of the table view and tree view, combined. Tree items can be created as TreeItem<> elements and are called nodes, and can be collapsed, while table items can be added as TreeTableColumn elements which comprise of a List which correspond to each TreeItem.
